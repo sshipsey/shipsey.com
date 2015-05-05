@@ -1,23 +1,15 @@
 .header {
 
-	color:black;
+	color:white;
 	font-size:1.7em;
 	font-weight:bold;
 	padding:5px;
 	text-align:center;
-	border-bottom:2px solid black;
-
-	/* Gradient */
-background: #b2dbff; /* Old browsers */
-background: -moz-linear-gradient(top,  #b2dbff 11%, #ffffff 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(11%,#b2dbff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #b2dbff 11%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #b2dbff 11%,#ffffff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #b2dbff 11%,#ffffff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #b2dbff 11%,#ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2dbff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
-
+	opacity:.6;
+background-color:black;
+position:absolute;
+top:0;
+width:100%;
 }
 
 .headertext {
@@ -38,13 +30,10 @@ margin-right:50px;
 
 body {
 	
-	background-image:url("/img/LightBlue.jpg");
- 	background-repeat: repeat-x;
- 	background-color:#6290C1;
 }
 .container {
-	max-width:1024px;
 }
+
 .content {
 	margin-left:auto;
 	margin-right:auto;
@@ -53,13 +42,38 @@ body {
 	background-color:#E0F5FF;
 	color:black;
 	border:1px solid black;
-	border-radius: 10px;
 	padding: 10px;
+	margin-bottom: 20px;
+}
+.icon {
+	width:50px;
+	height:50px;
+}
+.facebook {
+	display:inline-block;
+	float:right;
+	padding:10px;
+	border:1px solid black;
+	margin-top:5px;
+	margin-left:10px;
+	clear:both;
+	width:200px;
+	background-color:white;
+}
+.box {
+	display:inline-block;
+	float:right;
+	padding:10px;
+	margin-top:5px;
+	margin-left:10px;
+	clear:both;
+	width:200px;
 }
 .title {
 	font-size:36;
 	font-weight:bold;
 	text-align:center;
+	background-color:#BFFFFF;
 }
 img.banner {
 	width:100%;
